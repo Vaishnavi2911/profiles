@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/vaishnavi.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Vaishnavi Kanhegaonkar - Computer Engineer Portfolio
+    
+  </title>
+  <link rel="stylesheet" type="text/css" href="./Vaishnavi Kanhegaonkar - Computer Engineer Portfolio_files/styles.css">
+  <script src="./Vaishnavi Kanhegaonkar - Computer Engineer Portfolio_files/script.js.download"></script>
+</head>
+<body>
+  <header>
+    <h1>Vaishnavi Kanhegaonkar</h1>
+    <nav>
+      <ul>
+        <li><a href="http://127.0.0.1:5500/vaishnavi.html#about">About</a></li>
+        <li><a href="http://127.0.0.1:5500/vaishnavi.html#skills">Skills</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+    <h1>Welcome to My Personal Website</h1>
+    <img src="file:///C:/Users/Vaishnavi/Desktop/profile.jpg" alt="Vaishnavi Kanhegaonkar" class="custom image">
+   
+  
+   
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <link rel="stylesheet" type="text/css" href="./Vaishnavi Kanhegaonkar - Computer Engineer Portfolio_files/styles.css">
+      <p>I am a computer engineer with a passion for programming and problem-solving. Currently, I specialize in languages such as C, C++, Java, JavaScript, HTML, and CSS. I have experience in database management, networking, and object-oriented programming. I love to explore new technologies and constantly improve my skills.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Database Management</li>
+        <li>Networking</li>
+        <li>Object-Oriented Programming</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2023 Vaishnavi Kanhegaonkar. All rights reserved.</p>
+    </div>
+  </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
